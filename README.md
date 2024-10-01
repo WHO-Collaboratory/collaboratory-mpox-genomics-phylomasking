@@ -1,3 +1,5 @@
+![image](img/ipsn.png) 
+
 # Site masking for MPXV phylogenetics
 
 ## Files in this repository
