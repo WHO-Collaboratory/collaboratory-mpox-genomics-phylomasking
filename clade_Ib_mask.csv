@@ -1,0 +1,108 @@
+Name,Minimum,Maximum,Length,note
+2426,2426,2426,1,convergent_snp
+2626,2626,2626,1,reversion
+6948,6948,6948,1,clustered_snps
+6949,6949,6949,1,clustered_snps
+13744,13744,13744,1,reversion
+19128,19128,19128,1,clustered_snps
+19130,19130,19130,1,clustered_snps
+19131,19131,19131,1,clustered_snps
+20250,20250,20250,1,N_adjacent
+20269,20269,20269,1,N_adjacent
+24871,24871,24871,1,clustered_snps
+24874,24874,24874,1,N_adjacent;clustered_snps
+24876,24876,24876,1,N_adjacent;clustered_snps
+26654,26654,26654,1,N_adjacent
+31230,31230,31230,1,clustered_snps
+31232,31232,31232,1,clustered_snps
+41097,41097,41097,1,N_adjacent
+48612,48612,48612,1,N_adjacent
+52227,52227,52227,1,N_adjacent
+61479,61479,61479,1,N_adjacent
+84244,84244,84244,1,N_adjacent
+84253,84253,84253,1,N_adjacent
+89000,89000,89000,1,N_adjacent
+96895,96895,96895,1,N_adjacent
+96897,96897,96897,1,N_adjacent
+115484,115484,115484,1,convergent_snp
+138322,138322,138322,1,N_adjacent
+145002,145002,145002,1,N_adjacent
+145010,145010,145010,1,N_adjacent
+145011,145011,145011,1,N_adjacent
+145012,145012,145012,1,N_adjacent
+145013,145013,145013,1,N_adjacent
+145015,145015,145015,1,N_adjacent;clustered_snps
+145019,145019,145019,1,clustered_snps
+145020,145020,145020,1,clustered_snps
+145021,145021,145021,1,clustered_snps
+145022,145022,145022,1,clustered_snps
+145023,145023,145023,1,clustered_snps
+145024,145024,145024,1,clustered_snps
+145030,145030,145030,1,clustered_snps
+145031,145031,145031,1,N_adjacent
+145033,145033,145033,1,N_adjacent
+145035,145035,145035,1,clustered_snps
+145037,145037,145037,1,clustered_snps
+145038,145038,145038,1,clustered_snps
+145040,145040,145040,1,clustered_snps
+159742,159742,159742,1,clustered_snps
+159744,159744,159744,1,clustered_snps
+159745,159745,159745,1,N_adjacent
+162916,162916,162916,1,N_adjacent
+162924,162924,162924,1,N_adjacent
+162942,162942,162942,1,N_adjacent
+169253,169253,169253,1,clustered_snps
+169254,169254,169254,1,clustered_snps
+169305,169305,169305,1,N_adjacent
+169452,169452,169452,1,N_adjacent
+169483,169483,169483,1,N_adjacent
+169500,169500,169500,1,convergent_snp;N_adjacent
+169501,169501,169501,1,convergent_snp;N_adjacent
+171805,171805,171805,1,N_adjacent
+178343,178343,178343,1,N_adjacent
+178348,178348,178348,1,N_adjacent
+180878,180878,180878,1,clustered_snps
+180879,180879,180879,1,clustered_snps
+180880,180880,180880,1,clustered_snps
+180881,180881,180881,1,clustered_snps
+180883,180883,180883,1,N_adjacent
+19127,19127,20281,1155,Gappy
+31227,31227,31232,6,Gappy
+41092,41092,41099,8,Gappy
+52206,52206,52206,1,multiple_mutations
+52220,52220,52220,1,multiple_mutations
+52227,52227,52227,1,multiple_mutations
+84244,84244,84253,10,Gappy
+144998,144998,145046,49,Gappy
+145244,145244,145255,12,Gappy
+157454,157454,157458,5,Gappy
+162893,162893,162947,55,Gappy
+169251,169251,169254,4,Gappy
+180872,180872,180891,20,Gappy
+165597,165597,165597,1,Reversion
+1,1,6378,6378,ITR
+101965,101965,101965,1,near_N
+178235,178235,178235,1,near_N
+135721,135721,135721,1,near_N
+183181,183181,183181,1,near_N
+135375,135375,135375,1,convergent_IIb
+99854,99854,99854,1,convergent_other_clades
+169452,169452,169501,50,repetitive
+172844,172844,172844,1,near_N
+27697,27697,27697,1,convergent_some_IIb
+86815,86815,86815,1,near_N
+35666,35666,35666,1,different_bases_in_different_sequences_from_same_sample
+71952,71952,71952,1,convergent_some_IIb
+64117,64117,64117,1,convergent_some_IIb
+repetitive region,10403,10556,154,squirrel_default_mask
+homopolymeric runs,20449,20470,22,squirrel_default_mask
+homopolymeric runs,21344,21366,23,squirrel_default_mask
+repetitive region,31764,31784,21,squirrel_default_mask
+repetitive region,138325,138413,89,squirrel_default_mask
+repetitive region,148716,148767,52,squirrel_default_mask
+repetitive region,150192,150219,28,squirrel_default_mask
+repetitive region,152389,152600,212,squirrel_default_mask
+repetitive region,169482,169502,21,squirrel_default_mask
+repetitive region,170635,170660,26,squirrel_default_mask
+homopolymeric runs,177733,177743,11,squirrel_default_mask
+homopolymeric runs,178772,178947,176,squirrel_default_mask
