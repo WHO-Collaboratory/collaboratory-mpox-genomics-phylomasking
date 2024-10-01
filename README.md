@@ -31,7 +31,7 @@ We have provided an example issue structure [here](https://github.com/WHO-Collab
 
 The issue will be evaluated by a member of the sites maintenance team and the site added if it meets the criteria
 
-## Why do sites need to masked in MPXV phylogenetics?
+## Why do sites need to masked in MPXV phylogenetics?
 
 To accurately reconstruct the relationships between MPXV genetic sequences, we need to distinguish real mutations from artefactual mutations. We here aim to maintain a list of problematic genome positions that likely exhibit artefactual mutations or have the potential to exhibit such mutations either due to genomic features or bioinformatic issues. We recommend masking these genome positions when calculating a sequence alignment so they are not included in sequence comparisons or phylogenetic trees
 
