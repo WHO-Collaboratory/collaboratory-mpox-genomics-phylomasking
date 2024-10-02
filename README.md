@@ -8,7 +8,7 @@ In this repository, we maintain a list of the genomic positions that we recommen
 
 We currently maintain a list of sites for clade Ib named clade_Ib_mask.csv. Lists for clade Ia and clade I combined will follow soon
 
-Sites within these masking files use the coordinates of NC_003310
+Sites within these masking files use the coordinates of [NC_003310](https://www.ncbi.nlm.nih.gov/nuccore/NC_003310.1)
 
 The masking files are in a format that is compatible with [squirrel](https://github.com/aineniamh/squirrel). To use these files with squirrel, when running an alignment add the --additional-mask flag followed by the masking file. For example, to mask the recommended sites within clade Ib when aligning a set of sequences in a file called clade_Ib_unaligned.fasta, run:
 
@@ -33,14 +33,14 @@ The issue will be evaluated by a member of the sites maintenance team and the si
 
 ## Why do sites need to masked in MPXV phylogenetics?
 
-To accurately reconstruct the relationships between MPXV genetic sequences, we need to distinguish real mutations from artefactual mutations. We here aim to maintain a list of problematic genome positions that likely exhibit artefactual mutations or have the potential to exhibit such mutations either due to genomic features or bioinformatic issues. We recommend masking these genome positions when calculating a sequence alignment so they are not included in sequence comparisons or phylogenetic trees
+To accurately reconstruct the relationships between MPXV genetic sequences, we need to distinguish real mutations from artifactual mutations. We aim to maintain a list of problematic genome positions that likely exhibit artifactual mutations or have the potential to be unreliable mutations either due to genomic features or bioinformatic issues. We recommend masking these genome positions when calculating a sequence alignment so they are not included in sequence comparisons or phylogenetic trees.
 
-The MPXV genome contains repetitive regions and low complexity regions that can result in inference of artefactual mutations. These genome regions were identified [here](https://www.science.org/doi/10.1126/science.adg8116) and are included in the masking site list
+The MPXV genome contains repetitive regions and low complexity regions that can result in inference of artifactual mutations. These genome regions were identified [here](https://www.science.org/doi/10.1126/science.adg8116) and are included in the masking site list.
 
-Additional positions associated with artefactual mutations can be inferred through identification of:
-* Convergent mutations - given the large genome size and low substitution rate of MPXV, we would not expect the same genome position to mutate multiple times within closely related clades that have recent ancestry. Mutations that arise multiple times are therefore likely to be driven by a sequencing or bioinformatic artefact; we therefore recommend masking the sites of such convergent mutations
-* Reversions - reversions within a clade can be the result of bioinformatically calling reference nucleotides. Reversions can be identified by evaluating whether a mutation is shared with a reference genome or genomes from another clade
-* Clustered mutations - we would not expect multiple mutations to be acquired very close together on the same phylogenetic branch. These mutations are potentially due to assembly issues so can be masked
-* Mutations close to Ns - Ns may indicate low coverage. Therefore mutations that are close to tracts of Ns may not be reliable and can be masked
-* Alignment regions with many gaps - if many sequences have gaps or Ns within a genomic region, mutations within the region are unlikely to be reliable. These regions can be masked
+Additional positions associated with artifactual mutations can be inferred through identification of:
+* Convergent mutations - given the large genome size and low substitution rate of MPXV, we would not expect the same genome position to mutate multiple times within closely related clades that have recent ancestry. Mutations that arise multiple times are therefore likely to be driven by a sequencing or bioinformatic artefact; we therefore recommend masking the sites of such convergent mutations.
+* Reversions - reversions within a clade can be the result of bioinformatically calling reference nucleotides. Reversions can be identified by evaluating whether a mutation is shared with a reference genome or genomes from another clade.
+* Clustered mutations - we would not expect multiple mutations to be acquired very close together on the same phylogenetic branch. These mutations are potentially due to assembly issues so can be masked from the alignment.
+* Mutations close to Ns - Ns may indicate low coverage. Therefore mutations that are close to tracts of Ns may not be reliable and should be masked from that sequence
+* Alignment regions with many gaps - if many sequences have gaps or Ns within a genomic region, mutations within the region are unlikely to be reliable. These regions should be masked from the alignment.
 
