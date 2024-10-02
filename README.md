@@ -2,6 +2,8 @@
 
 # Site masking for MPXV phylogenetics
 
+This repository is managed bythe  [community of practice for specialized surveillance for emergency response](https://github.com/WHO-Collaboratory/collaboratory-mpox-genomics-community) pathogen genomics working group.
+
 ## Files in this repository
 
 In this repository, we maintain a list of the genomic positions that we recommend to mask when reconstructing phylogenetic trees for monkeypox virus (MPXV). The rationale behind site masking is discussed [below](#why-do-sites-need-to-be-masked-in-MPXV-phylogenetics)
