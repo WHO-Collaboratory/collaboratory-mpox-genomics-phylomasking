@@ -2,7 +2,7 @@
 
 # Site masking for MPXV phylogenetics
 
-This repository is managed bythe  [community of practice for specialized surveillance for emergency response](https://github.com/WHO-Collaboratory/collaboratory-mpox-genomics-community) pathogen genomics working group.
+This repository is managed by the  [community of practice for specialized surveillance for emergency response](https://github.com/WHO-Collaboratory/collaboratory-mpox-genomics-community) pathogen genomics working group.
 
 ## Files in this repository
 
