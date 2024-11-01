@@ -106,3 +106,16 @@ repetitive region,169482,169502,21,squirrel_default_mask
 repetitive region,170635,170660,26,squirrel_default_mask
 homopolymeric runs,177733,177743,11,squirrel_default_mask
 homopolymeric runs,178772,178947,176,squirrel_default_mask
+8293,8293,8293,1,near_N
+18157,18157,18157,1,Reversion
+87834,87834,87834,1,N_region
+123603,123603,123603,1,near_N
+135322,135322,135322,1,near_N
+135779,135779,135779,1,Reversion
+148582,148582,148582,1,unresolved_bases
+152301,152301,152301,1,Reversion_clustered_snps
+152345,152345,152345,1,Reversion_clustered_snps
+152370,152370,152370,1,Reversion_clustered_snps
+159115,159115,159115,1,Gappy
+168857,168857,168857,1,near_N
+178397,178397,178397,1,Gappy
